@@ -1,0 +1,5 @@
+services:
+  bot:
+    image: ghcr.io/jeffpeng3/course-please:master
+    environment:
+      WEBHOOK: https://discord.com/api/webhooks/<channel ID>/<token>

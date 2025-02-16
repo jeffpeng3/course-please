@@ -1,0 +1,16 @@
+[project]
+name = "course-please"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "jeff", email = "jeffpeng2012@gmail.com" }
+]
+dependencies = [
+    "aiohttp>=3.11.12",
+]
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
