@@ -4,13 +4,13 @@ from copy import deepcopy
 from os import getenv
 from datetime import datetime, timezone, timedelta
 
-pat = {"content": "@everyone 有課拉"}
+pat = {"content": "<@551024169442344970> 有課拉"}
 
 data = {
     "Semester": "1132",
-    "CourseNo": "",
+    "CourseNo": "GE3728303",
     "CourseName": "",
-    "CourseTeacher": "蘇金輝",
+    "CourseTeacher": "",
     "Dimension": "",
     "CourseNotes": "",
     "ForeignLanguage": 0,
